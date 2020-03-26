@@ -16,4 +16,4 @@ eureka:
 server:
   port: 8003
 
-env: dev
+env: test
