@@ -8,4 +8,4 @@ spring:
     name: order
   jpa:
     show-sql: true
-env: test2
+env: test3
