@@ -11,4 +11,4 @@ spring:
 env: test1
 girl:
   name: aaa
-  age: 20
+  age: 30
