@@ -8,6 +8,11 @@ spring:
     name: order
   jpa:
     show-sql: true
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    port: 5672
 env: test1
 girl:
   name: aaa
