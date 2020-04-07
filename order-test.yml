@@ -16,4 +16,4 @@ spring:
 env: test1
 girl:
   name: neo
-  age: 50
+  age: 20
