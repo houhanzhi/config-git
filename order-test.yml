@@ -8,6 +8,9 @@ spring:
     name: order
   jpa:
     show-sql: true
+  redis:
+    host: localhost
+    port: 6390
   rabbitmq:
     host: localhost
     username: guest
