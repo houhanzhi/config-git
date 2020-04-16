@@ -8,7 +8,7 @@ zuul:
   routes:
     # MyProduct/product/list -> product/product/list
     myProduct:
-      path: /MyProduct/**
+      path: /myProduct/**
       serviceId: product
       # Zuul默认不传递cookie，如果传递，则设置sensitiveHeaders为空即可
       sensitiveHeaders:
