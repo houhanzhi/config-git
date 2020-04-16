@@ -8,4 +8,4 @@ spring:
     show-sql: true
   redis:
     host: localhost
-    port: 6390
+    port: 6379
