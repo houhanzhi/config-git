@@ -12,6 +12,9 @@ zuul:
       serviceId: product
       # Zuul默认不传递cookie，如果传递，则设置sensitiveHeaders为空即可
       sensitiveHeaders:
+    user:
+      path: /user/**
+      serviceId: login
     # 简洁写法
 #    product: /myProduct/**
 
