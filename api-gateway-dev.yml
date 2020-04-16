@@ -1,11 +1,13 @@
 zuul:
+  # 全部服务忽略敏感头(全部服务都可以传递cookie)
+  sensitive-headers:
   host:
     connect-timeout-millis: 15000 #HTTP连接超时要比Hystrix的大
     socket-timeout-millis: 60000   #socket超时
   # 自定义路由
   routes:
     # MyProduct/product/list -> product/product/list
-    MyProduct:
+    myProduct:
       path: /MyProduct/**
       serviceId: product
       # Zuul默认不传递cookie，如果传递，则设置sensitiveHeaders为空即可
