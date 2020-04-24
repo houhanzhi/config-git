@@ -9,10 +9,10 @@ spring:
   jpa:
     show-sql: true
   redis:
-    host: 10.6.206.136
+    host: 10.6.229.62
     port: 6379
   rabbitmq:
-    host: 10.6.206.136
+    host: 10.6.229.62
     username: guest
     password: guest
     port: 5672
